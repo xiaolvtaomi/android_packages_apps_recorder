@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Recorder</string>
+
+    <string name="fragment_sounds">Record sound</string>
+    <string name="fragment_screen">Record screen</string>
+
+    <string name="share">Share</string>
+    <string name="stop">Stop</string>
+
+    <string name="permission_storage_denied">Recorder needs storage access to record</string>
+    <string name="permission_audio_denied">Recorder needs microphone access to record</string>
+
+    <!-- Sound mRecorder -->
+    <string name="sound_notification_title">Sound mRecorder</string>
+    <string name="sound_notification_message">Audio length: %1$s</string>
+
+    <!-- Screen mRecorder -->
+    <string name="screen_audio_title">Audio from microphone</string>
+    <string name="screen_audio_message_on">The app will record mAudio from the microphone too when recording the screen</string>
+    <string name="screen_audio_message_off">The app will not record mAudio from the microphone too when recording the screen</string>
+    <string name="screen_audio_warning_message">To include mAudio, you need to grant the access to the microphone. Tap below to allow access for this app</string>
+    <string name="screen_audio_warning_button_ask">Ask</string>
+    <string name="screen_insufficient_storage">Insufficient storage</string>
+    <string name="screen_not_enough_storage">Not enough storage available</string>
+    <string name="screen_show_touches">Show touches</string>
+    <string name="screen_hide_touches">Hide touches</string>
+    <string name="screen_notification_title">Screen mRecorder</string>
+    <string name="screen_notification_message">Video length: %s</string>
+    <string name="screen_notification_message_done">Ready to share</string>
+
+    <!-- Benefits -->
+    <string name="benefits_button">Get started</string>
+    <string name="benefits_one_title">School done easy</string>
+    <string name="benefits_one_message">Manage and archive marks, averages and events easily on your device</string>
+    <string name="benefits_two_title">Always up to date</string>
+    <string name="benefits_two_message">Never miss a news, be notified as soon as they\'re pubblished</string>
+    <string name="benefits_three_title">Keep\'em Safe</string>
+    <string name="benefits_three_message">With Safe, you can store all your school passwords in one secure place</string>
+
+</resources>

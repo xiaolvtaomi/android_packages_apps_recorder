@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e5e5e5</color>
+    <color name="colorPrimaryDark">#24000000</color>
+    <color name="colorAccent">#ffffff</color>
+
+    <color name="screenColor">#ffc400</color>
+    <color name="screenColorDark">#b58e0d</color>
+
+    <color name="soundColor">#009890</color>
+    <color name="soundColorDark">#006667</color>
+
+
+    <color name="white">#fafafa</color>
+    <color name="black">#000000</color>
+</resources>
