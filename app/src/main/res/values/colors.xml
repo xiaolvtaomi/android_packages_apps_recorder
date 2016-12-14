@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e5e5e5</color>
+    <color name="colorPrimaryDark">#cacaca</color>
+    <color name="colorAccent">#965031</color>
+    <color name="colorAccentDark">#552514</color>
+
+    <color name="recordingAudioColor">#3657a7</color>
+    <color name="recordingScreenColor">#0dc1b8</color>
+
+    <color name="white">#fafafa</color>
+    <color name="black">#000000</color>
+</resources>

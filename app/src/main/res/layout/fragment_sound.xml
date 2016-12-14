@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:visualizer_style="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical"
+    android:paddingEnd="8dp"
+    android:paddingStart="8dp">
+
+    <!-- Recording card -->
+    <android.support.v7.widget.CardView
+        android:id="@+id/sound_card_recording"
+        style="@style/CardTheme.Card">
+
+        <RelativeLayout style="@style/CardTheme.Layout">
+
+            <TextView
+                android:id="@+id/sound_recording_title"
+                style="@style/CardTheme.Title"
+                android:text="@string/sound_recording_title" />
+
+            <ImageView
+                style="@style/CardTheme.Icon"
+                android:src="@drawable/ic_action_sound_record"
+                android:tint="@color/white" />
+
+            <RelativeLayout
+                style="@style/CardTheme.Layout"
+                android:layout_below="@id/sound_recording_title"
+                android:paddingTop="8dp">
+
+                <org.lineageos.recorder.sounds.SoundVisualizer
+                    android:id="@+id/sound_visualizer"
+                    android:layout_width="match_parent"
+                    android:layout_height="128dp"
+                    visualizer_style:visualizer_width="-1"
+                    visualizer_style:visualizer_height="128"
+                    visualizer_style:visualizer_gravity="center" />
+
+                <Button
+                    android:id="@+id/sound_recording_button"
+                    style="@style/CardTheme.Button"
+                    android:layout_below="@id/sound_visualizer"
+                    android:text="@string/stop" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
